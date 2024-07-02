@@ -1,4 +1,7 @@
-const numero = [2, 3, 4, 5];
-numero.pop()
+const notas = [100, 200, 300, 400 ];
+for (let i=0; i < notas.length; i++){
 
-console.log(numero)
+    notas[i] = notas[i] + 100
+
+}
+console.log (notas)
